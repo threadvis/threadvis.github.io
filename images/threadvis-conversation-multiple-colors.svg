@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="128px" height="38.667px" viewBox="0 0 128 38.667" enable-background="new 0 0 128 38.667" xml:space="preserve">
+<circle id="c_1" onmouseover="toggle(evt,this);" onmouseout="toggle(evt,this);" fill="#75756D" cx="8" cy="19" r="5"/>
+<circle id="c_1_1_" onmouseover="toggle(evt,this);" onmouseout="toggle(evt,this);" fill="#75756D" cx="24" cy="19" r="5"/>
+<path id="p_1" fill="none" stroke="#757500" stroke-width="2" d="M8,14c0-5.523,3.582-10,8-10l0,0c4.418,0,8,4.477,8,10"/>
+<circle id="c_1_2_" onmouseover="toggle(evt,this);" onmouseout="toggle(evt,this);" fill="#7EFF00" cx="40" cy="19" r="5"/>
+<path id="p_2" fill="none" stroke="#7EFF00" stroke-width="2" d="M24,24c0,5.523,3.582,10,8,10l0,0l0,0c4.418,0,8-4.477,8-10"/>
+<circle id="c_1_3_" onmouseover="toggle(evt,this);" onmouseout="toggle(evt,this);" fill="none" stroke="#FF0000" stroke-width="2.5" cx="56" cy="19" r="5"/>
+<path id="p_3" fill="none" stroke="#FF0000" stroke-width="2" d="M40,14c0-5.523,3.582-10,8-10l0,0c4.418,0,8,4.477,8,10"/>
+<circle id="c_1_4_" onmouseover="toggle(evt,this);" onmouseout="toggle(evt,this);" fill="#00FFFF" cx="72" cy="19" r="5"/>
+<path id="p_4" fill="none" stroke="#00FFFF" stroke-width="2" d="M56,24c0,5.523,3.582,10,8,10l0,0l0,0c4.418,0,8-4.477,8-10"/>
+<circle id="c_1_5_" onmouseover="toggle(evt,this);" onmouseout="toggle(evt,this);" fill="#00FFFF" cx="88" cy="19" r="5"/>
+<path id="p_5" fill="none" stroke="#00FFFF" stroke-width="2" d="M56,24c0,6.627,5.373,12,12,12h8c6.627,0,12-5.373,12-12"/>
+<circle id="c_1_6_" onmouseover="toggle(evt,this);" onmouseout="toggle(evt,this);" fill="#7E00FF" cx="104" cy="19" r="5"/>
+<path id="p_6" fill="none" stroke="#7E00FF" stroke-width="2" d="M88,14c0-5.523,3.582-10,8-10l0,0c4.418,0,8,4.477,8,10"/>
+<circle id="c_1_7_" onmouseover="toggle(evt,this);" onmouseout="toggle(evt,this);" fill="none" stroke="#FF0000" stroke-width="2.5" cx="120" cy="19" r="5"/>
+<path id="p_7" fill="none" stroke="#FF0000" stroke-width="2" d="M88,14c0-6.627,5.373-12,12-12h8c6.627,0,12,5.373,12,12"/>
+</svg>

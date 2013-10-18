@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% if page.title %} {{ page.title }} | {% endif %} ThreadVis - Visualizing Conversations</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{site.baseurl}}styles/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="{{site.baseurl}}styles/bootstrap/justified-nav.css" rel="stylesheet">
+    <!-- Custom styles -->
+    <link href="{{site.baseurl}}styles/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="{{site.baseurl}}styles/bootstrap/js/html5shiv.js"></script>
+      <script src="{{site.baseurl}}styles/bootstrap/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body div data-spy="scroll" data-target="#subnav">
+    <div class="nav-fixed">
+      {% include navigation.html %}
+    </div>
+    <div class="container">
+      
+
+      {{ content }}
+
+      {% include footer.html %}
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{{site.baseurl}}styles/bootstrap/js/jquery.js"></script>
+    <script src="{{site.baseurl}}styles/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

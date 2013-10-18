@@ -1,0 +1,90 @@
+---
+layout: default
+title: Documentation
+nav: documentation
+---
+<div class="row">
+
+  <div class="col-md-12">
+    <p class="lead">
+      Learn everything about ThreadVis.
+    </p>
+  </div>
+
+  <div class="col-md-2" id="subnav">
+    <ul class="nav nav-stacked nav-pills affix">
+      <li class="active"><a href="#what-is-threadvis">What is ThreadVis?</a></li>
+      <li><a href="#message-coloring">Coloring</a></li>
+      <li><a href="#timescaling">Time Scaling</a></li>
+      <li><a href="#timeline">Timeline</a></li>
+      <li><a href="#how-does-threadvis-fit-in">How do they fit in?</a></li>
+      <li><a href="#previewing-a-message">Preview</a></li>
+    </ul>
+  </div>
+
+  <div class="col-md-10">
+
+    <h3 id="what-is-threadvis" class="page-header anchor">What is ThreadVis?</h3>
+    <p>
+      ThreadVis displays the response hierarchy of email messages. All messages in a thread are displayed as dots and are laid our horizontally, sorted chronologically, the oldest message to the left.
+    </p>
+    <p>
+      Clicking on a message dot automatically navigates to the clicked message, no matter which folder the message is stored in.
+    </p>
+
+    <h3 id="message-coloring" class="page-header anchor">Coloring</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <h4>One Color</h4>
+        <img class="doc-img" src="{{site.baseurl}}images/threadvis-conversation-no-colors.svg" alt="ThreadVis using only one colour">
+        <p>
+          The currently selected message is displayed in blue, along with arcs to its parents and children. Messages sent by the user are displayed hollow. In the above sample, the fourth message was sent by the user, which triggered two separate replies.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <h4>More Colours</h4>
+        <img class="doc-img" src="{{site.baseurl}}images/threadvis-conversation-multiple-colors.svg" alt="ThreadVis using different colours for different authors">
+        <p>
+          Messages from different authors can be displayed in different colours. By using different colours for different authors, you can immediately see that the fifth and sixth message have been written by the same author.
+        </p>
+      </div>
+    </div>
+
+    <h3 id="timescaling" class="page-header anchor">Time Scaling</h3>
+    <p>
+      Normally, the messages of each thread are laid out horizontally and the spacing between two messages is constant. If you enable time scaling, the horizontal spacing between two messages is proportional to the time difference between those two messages.<br>
+      The example below immediately shows that the time between the first and the second message is much longer than the time between the second and the third message.
+    </p>
+    <div class="row">
+      <div class="col-md-6">
+        <img class="doc-img" src="{{site.baseurl}}images/threadvis-conversation-multiple-colors.svg" alt="ThreadVis without time scaling">
+        <p>A thread without Time Scaling.</p>
+      </div>
+      <div class="col-md-6">
+        <img class="doc-img" src="{{site.baseurl}}images/threadvis-conversation-timescaling.svg" alt="ThreadVis with time scaling">
+        <p>The same thread with Time Scaling enabled.</p>
+        <img class="doc-img" src="{{site.baseurl}}images/threadvis-conversation-timescaling-logarithm.svg" alt="ThreadVis with time scaling, logarithmic">
+        <p>To avoid longer pauses to disrupt the display, the time differences can also be logarithmically scaled.</p>
+      </div>
+    </div>
+
+    <h3 id="timeline" class="page-header anchor">Timeline</h3>
+    <p>
+      In addition to using Time Scaling, a Timeline can be displayed. This adds a short description of the time between two messages.
+    </p>
+
+    <h3 id="how-does-threadvis-fit-in" class="page-header anchor">How does ThreadVis fit in?</h3>
+    <p>
+      <img class="img-thumbnail" src="{{site.baseurl}}images/threadvis-thunderbird-closeup.png" alt="Example of the extension in Thunderbird">
+    </p>
+    <p>
+      ThreadVis is displayed in the header box of Mozilla Thunderbird. The visualisation is automatically resized to fit in the space provided. The above screenshot is also an example for a longer thread and how it is displayed in the add-on.
+    </p>
+
+    <h3 id="previewing-a-message" class="page-header anchor">Preview</h3>
+    <p>
+      Hovering over a message dot previews the message's content without switching to it, allowing for a quick look when looking for a specific reply in a longer thread.
+    </p>
+  </div>
+
+</div>

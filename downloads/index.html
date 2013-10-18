@@ -1,0 +1,321 @@
+---
+layout: default
+title: Downloads
+nav: downloads
+---
+<div class="row">
+  <div class="col-md-12">
+    <p class="lead">
+      Want to know how ThreadVis developed over the years? Dive into the detailed version history to see what changed since it started back in 2005.
+    </p>
+
+    <div class="page-header">
+      <h2>Current Version</h2>
+    </div>
+    <p class="alert alert-info">
+      You can always find the most recent stable version on <b><a href="https://addons.mozilla.org/thunderbird/addon/threadvis/">addons.mozilla.org</a></b>.
+    </p>
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/2.2.0/ThreadVis-2.2.0.xpi">2.2.0</a> | 8 Oct 2013</h4>
+    <ul>
+      <li>Updated version compatibility to Thunderbird 24.0</li>
+      <li>Moved homepage to <a href="http://threadvis.github.io/">threadvis.github.io</a></li>
+    </ul>
+
+    <div class="page-header">
+      <h2>Version History</h2>
+    </div>
+    <p class="alert alert-warning">
+      Attention: Older versions installed from this page may fail to provide automatic updates and/or may not work in recent versions of Thunderbird.
+    </p>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/2.1.705/ThreadVis-2.1.705.xpi">2.1.705</a> | Dec 21, 2011</h4>
+    <ul>
+      <li>Updated version compatibility to Thunderbird 9.*.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/2.1.702/ThreadVis-2.1.702.xpi">2.1.702</a> | Aug 31, 2011</h4>
+    <ul>
+      <li>Updated version compatibility to Thunderbird 7.*.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/2.1.698/ThreadVis-2.1.698.xpi">2.1.698</a> | July 12, 2011</h4>
+    <ul>
+      <li>Fixed setup wizard, was unable to load/save preferences.</li>
+      <li>Fixed status display: disabling global search and indexer was not reflected in ThreadVis status tooltip.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/2.1.691/ThreadVis-2.1.691.xpi">2.1.691</a> | July 5, 2011</h4>
+    <ul>
+      <li>Updated version compatibility for Thunderbird 5.</li>
+      <li>Fixed enable/disable account/folder.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/2.1.685/ThreadVis-2.1.685.xpi">2.1.685</a> | July 22, 2010</h4>
+    <ul>
+      <li>Updated version compatibility for Thunderbird 3.1.</li>
+    </ul>
+
+    <h4><a href="hhttps://github.com/threadvis/ThreadVis/releases/download/2.1.682/ThreadVis-2.1.682.xpi">2.1.682</a> | April 27, 2010</h4>
+    <ul>
+      <li>Fixed error which prevented ThreadVis to load correctly on Linux (more specifically: on a case-sensitive file system).</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/2.1.679/ThreadVis-2.1.679.xpi">2.1.679</a> | April 22, 2010</h4>
+    <ul>
+      <li>Fixed localisation issue for de_DE localisation (display of add-on name in add-on list).</li>
+      <li>Fixed issue with start-up wizard (first time start-up) not saving preferences.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/2.1.675/ThreadVis-2.1.675.xpi">2.1.675</a> | April 21, 2010</h4>
+    <ul>
+      <li>Currently, it is not possible to navigate between messages when a message is opened in a new tab (seems to be a limitation of Thunderbird).</li>
+      <li>Time Scaling now supports logarithmic scaling in addition to linear scaling. Additionally, minimal time difference can also be set manually in preferences.</li>
+      <li>Timeline font size now configurable in preferences.</li>
+      <li>Show error conditions in status bar icon (missing messages, out-of-date index, corrupt message database).</li>
+      <li>Extended context menu in status bar.</li>
+      <li>Code restructured, avoid global namespace pollution.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/2.0.653/ThreadVis-2.0.653.xpi">2.0.653</a> | April 2, 2010</h4>
+    <ul>
+      <li>Fixed issue in en-US localisation which prevented ThreadVis from loading.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/2.0.650/ThreadVis-2.0.650.xpi">2.0.650</a> | April 1, 2010</h4>
+    <ul>
+      <li>Partial re-write for Thunderbird 3.0.</li>
+      <li>This version is only working with Thunderbird 3, all other application support (Thunderbird 1.x-2.x, Seamonkey) has been dropped.</li>
+      <li>ThreadVis is now using the new global message database available in Thunderbird 3, so no separate index or cache is built and needs to be maintained. This means no more waiting for messages to be indexed and a more coherent picture of threads.</li>
+      <li>Added email body preview to tooltips.</li>
+      <li>Support for cut/copy/paste is currently removed, but will be re-added with a later version.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/1.1.595/ThreadVis-1.1.595.xpi">1.1.595</a> | January 10, 2009 </h4>
+    <ul>
+      <li>New caching backend using a SQLite database. Expect a massive speedup in thread calculation, especially for very large mailboxes.</li>
+      <li>Ability to abort/restart initial, long-running thread calculation. Closing Thunderbird while a calculation is running preserves already calculated messages and automatically continues the next time Thunderbird is started.</li>
+      <li>Released under the GNU AGPLv3.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/1.0.562/ThreadVis-1.0.562.xpi">1.0.562</a> | September 12, 2008 </h4>
+    <ul>
+      <li>Interim version which disables logging as my Master's Thesis is finished and the usage study has ended.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/1.0.510/ThreadVis-1.0.510.xpi">1.0.510</a> | June 8, 2008 </h4>
+    <ul>
+      <li>Compatibility to Thunderbird 3.</li>
+      <li>Exclude virtual folders (e.g. saved searches).</li>
+      <li>Caching and threading now running in background.</li>
+      <li>Size of visualisation box is now dynamic.</li>
+      <li>Removed possible personal information (message-ids) in logfile.</li>
+      <li>Vertically center the visualisation.</li>
+      <li>Default zoom settings now "full" and "fit".</li>
+      <li>Fixed issue when deactivating accounts.</li>
+      <li>Fixed disabling of folders (messages were still analyzed under certain conditions).</li>
+      <li>Added statusbar icon.</li>
+      <li>Fixed link to homepage (link opened twice).</li>
+      <li>Date in tooltip for message shortened.</li>
+      <li>Close legend window when clicking on icon a second time.</li>
+      <li>Fixed error in copy&amp;paste of messages.</li>
+      <li>Fixed rounding of time differences in timeline labels.</li>
+      <li>Fixed double click on message to open in new window.</li>
+      <li>Added default context menu to context menu for messages.</li>
+      <li>Added preference to hide visualisation totally if disabled for folder (preferences dialog update pending).</li>
+      <li>Colours for messages user-definable (preferences dialog update pending).</li>
+      <li>Sent-message always the same colour (preferences dialog update pending).</li>
+      <li>Added preference for border colour (preferences dialog update pending).</li>
+      <li>Added splitter to resize width of visualisation by dragging.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/0.9.462/ThreadVis-0.9.462.xpi">0.9.462</a> | April 15, 2008 </h4>
+    <ul>
+      <li>Fixed issue when using local folders (messages stored in local folders could not be analyzed).</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/0.9.460/ThreadVis-0.9.460.xpi">0.9.460</a> | April 9, 2008 </h4>
+    <ul>
+      <li>Fixed localisation issue.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/0.9.457/ThreadVis-0.9.457.xpi">0.9.457</a> | April 2, 2008 </h4>
+    <ul>
+      <li>Refesh folders when searching for messages.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/0.9.1/ThreadVis-0.9.1.xpi">0.9.1</a> | February 12, 2008 </h4>
+    <ul>
+      <li>Fixed bug in storing email log timestamp which prevented the reminder to disappear.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/0.9/ThreadVis-0.9.xpi">0.9</a> | February 5, 2008 </h4>
+    <ul>
+      <li>Added caching: messages need not be threaded on each startup, but cache information is stored in local message database.</li>
+      <li>Improved dragging / scrolling.</li>
+      <li>Improved informational messages for disabled folders / too many messages to visualise.</li>
+      <li>SVG export of visualisation.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/0.8.1/ThreadVis-0.8.1.xpi">0.8.1</a> | May 13, 2007 </h4>
+    <ul>
+      <li>Changed homepage and update URL.</li>
+      <li>Major update coming soon!</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/0.8/ThreadVis-0.8.xpi">0.8</a> | October 24, 2006 </h4>
+    <ul>
+      <li>Renamed extension to "ThreadVis".</li>
+      <li>Added legend.</li>
+      <li>Display icons for zoom, etc. instead of text.</li>
+      <li>Prevent over-panning.</li>
+      <li>Fixed and extended visualisation popup window.</li>
+      <li>Double click on message opens it in new window.</li>
+      <li>Added <i>debug level</i> to debug logging.</li>
+      <li>Handle duplicate message ids in references header.<br>
+          This fixed a long standing bug (&gt; 1 year) where a loop was created in the thread tree which caused the extension to go into an endless recursion.</li>
+      <li>Size and position of visualisation popup and legend window are stored.</li>
+      <li>Size of visualisation elements can be adjusted separately.</li>
+      <li>Display notes about new version at first startup.</li>
+      <li>Algorithm to create distinct colours for different authors extended.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/0.7.1/ThreadArcsJS-0.7.1.xpi">0.7.1</a> | September 29, 2006 </h4>
+    <ul>
+      <li>Log all JavaScript errors to logfile.</li>
+      <li>Do full redraw if cached version of thread does not include currently displayed message.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/0.7/ThreadArcsJS-0.7.xpi">0.7</a> | June 14, 2006 </h4>
+    <ul>
+      <li>Delay redraw of visualisation by 0.5 seconds after zooming to prevent unnecessary redraws.</li>
+      <li>Better redraw of visualisation by reusing existing elements.</li>
+      <li>Bugfix: preferences dialog in Thunderbird 1.5 ignored some changed settings.</li>
+      <li>Added timeline to display time between two messages (in addition to time scaling).</li>
+      <li>Added preference to set default zoom level.</li>
+      <li>Bugfix: stop panning at visualisation boundaries.</li>
+      <li>Added scrollbars to visualisation.</li>
+      <li>Bugfix: better handling of unknown messages</li>
+      <li>Changed algorithm to determine arc height, visualisation gets more compact.</li>
+      <li>Bugfix: checkboxes for enabled accounts and folders were not created correctly, in nested folder structures some folders were missing. (Thanks, Patrick!)</li>
+      <li>Use "pointer" cursor style (pointing hand) if hovering over message to indicate the possibility to click on the message.</li>
+      <li>Bugfix: prevent panning of visualisation by clicking on message.</li>
+      <li>Use "grab" cursor style over visualisation to indicate the possibility to do panning.</li>
+      <li>Use "grabbing" cursor style while panning.</li>
+      <li>Don't compress chrome .jar file to speed up application load time.</li>
+      <li>Added popup-window to display visualisation in a separate window.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/0.6.1/ThreadArcsJS-0.6.1.xpi">0.6.1</a> | November 29, 2005 </h4>
+    <ul>
+      <li>Bugfix: The rightmost message was cropped under some circumstances.</li>
+      <li>Bugfix: Resize visualisation if box is resized (e.g. window size is changed).</li>
+      <li>Bugfix: Underline authors also in expanded CC and BCC header fields.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/0.6/ThreadArcsJS-0.6.xpi">0.6</a> | November 15, 2005 </h4>
+    <ul>
+      <li>Extension now works with Thunderbird 1.5</li>
+      <li>Completely redesigned preferences dialog for Thunderbird 1.5</li>
+      <li>Small bugfix in handling the children of a message.<br>
+          I think this should take care of the annoying "too much recursion" error that sometimes crashed the extension.</li>
+      <li>Added delete/cut/paste operations.<br>
+          It's now possible to manually link messages together or separate threads that should not be linked together.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/0.5/ThreadArcsJS-0.5.xpi">0.5</a> | October 5, 2005 </h4>
+    <ul>
+      <li>It's now possible to zoom and pan the visualisation</li>
+      <li>Added a bigger area around the messages to catch clicks (easier to click on messages, particulary when they're small)</li>
+      <li>Better handling of messages that have not yet been analyzed.<br>
+        If you read a message that has not yet been analyzed by the extension (e.g. you subscribed to a new newsgroup), the extension now re-evaluates the new messages.</li>
+      <li>Started to make the extension compatible with Thunderbird 1.5</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/0.4/ThreadArcsJS-0.4.xpi">0.4</a> | August 19, 2005 </h4>
+    <ul>
+      <li>Added preference to disable (exclude) accounts in the extension</li>
+      <li>Added preference to disable (exclude) (sub)folders of an account</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/0.3/ThreadArcsJS-0.3.xpi">0.3</a> | June 24, 2005 </h4>
+    <ul>
+      <li>New visualisation code:<br>
+          Do not use images, but draw using XUL and CSS</li>
+      <li>Use colours for different authors</li>
+      <li>Underline authors in header view with colours</li>
+      <li>Removed loading image</li>
+      <li>Visualise selected message by drawing black circle<br>
+          (if colours are used)</li>
+      <li>Added popup menu to change settings</li>
+      <li>Moved preferences to global preferences dialog</li>
+      <li>New preferences layout</li>
+      <li>Removed entry in Tools menu</li>
+      <li>Fixed behaviour for two messages with same MsgId<br>
+          (aliases, mailing-lists)<br>
+          only display once, as sent</li>
+      <li>Enable/disable logfile right after changing preference, no restart necessary</li>
+      <li>Better detection of sent mails, also check from-email</li>
+      <li>Handle new messages and moved messages properly</li>
+      <li>New preference to enable/disable extension<br>
+          (needed because Mozilla can't disable an extension itself)</li>
+      <li>Could not write logfile after reset</li>
+      <li>Fixed display of extension when opening new window</li>
+      <li>Better handling of malformed references:<br>
+          remove whitespace, better splitting (newline, tab, ...)</li>
+      <li>Better detect account switching</li>
+      <li>Better avoid blocking UI</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/0.2.2/ThreadArcsJS-0.2.2.xpi">0.2.2</a> | May 10, 2005 </h4>
+    <ul>
+      <li>Added even more debug information. There is a bug somewhere and I've got to find it (thanks Bernhard!)</li>
+      <li>Improved logging speed.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/0.2.1/ThreadArcsJS-0.2.1.xpi">0.2.1</a> | May 10, 2005 </h4>
+    <ul>
+      <li>Small bugfix in logging of statistical information.</li>
+      <li>Added more information to debug logging.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/0.2/ThreadArcsJS-0.2.xpi">0.2</a> | May 9, 2005 </h4>
+    <ul>
+      <li>Localisation code added. Now ships with locales en-US and de-DE.</li>
+      <li>Added default preferences for all settings.</li>
+      <li>It's now possible to choose between three sizes for the visualisation.</li>
+      <li>New Feature (optional): Time Scaling.<br>
+          Messages are not laid out evenly, but the spacing reflects the time difference between the messages.</li>
+      <li>Added debug logging option to help finding bugs.</li>
+      <li>Reworked options dialog.<br>
+          Now contains options for logfile and debug log, Time Scaling, size of visualisation and about dialog (it was not possible to get the version number in Mozilla).</li>
+      <li>Fixed bug in creating directory structure for logfiles under Linux (thanks Bernhard!).</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/0.1.4/ThreadArcsJS-0.1.4.xpi">0.1.4</a> | May 6, 2005 </h4>
+    <ul>
+      <li>New visualisation images, resized to 16x16 to avoid distortions due to resizing.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/0.1.3/ThreadArcsJS-0.1.3.xpi">0.1.3</a> | May 5, 2005 </h4>
+    <ul>
+      <li>Changed log file format to XML.</li>
+      <li>Log more statistical infomation (number of threads, number of messages in each thread).</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/0.1.2/ThreadArcsJS-0.1.2.xpi">0.1.2</a> | May 4, 2005 </h4>
+    <ul>
+      <li>Added auto-update feature to package used in Mozilla Thunderbird, so that everyone is up-to-date.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/0.1.1/ThreadArcsJS-0.1.1.xpi">0.1.1</a> | May 3, 2005 </h4>
+    <ul>
+      <li>Also log number of messages in thread.</li>
+    </ul>
+
+    <h4><a href="https://github.com/threadvis/ThreadVis/releases/download/0.1/ThreadArcsJS-0.1.xpi">0.1</a> | May 3, 2005 </h4>
+    <ul>
+      <li>Rewritten in Javascript.</li>
+    </ul>
+
+  </div>
+</div>

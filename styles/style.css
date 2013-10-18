@@ -1,0 +1,38 @@
+body {
+	margin-top: 60px;
+}
+
+.navbar {
+	margin-bottom: 1px;
+}
+
+.nav-fixed {
+	padding-top: 10px;
+	position: fixed;
+	margin-top: -80px;
+	width: 100%;
+	background-color: white;
+	z-index: 100;
+}
+
+.footer {
+	color: #a8a8a8;
+}
+
+.footer a {
+	color: #a8a8a8;
+}
+
+.jumbotron {
+  text-align: left;
+  background-color: transparent;
+}
+
+.doc-img {
+	width: 75%;
+}
+
+.anchor {
+    padding-top: 80px;
+    margin-top: -80px;
+}
