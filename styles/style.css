@@ -15,6 +15,17 @@ body {
 	z-index: 100;
 }
 
+.nav.affix {
+	position: static;
+	margin-bottom: 80px;
+}
+
+@media screen and (min-width: 992px) {
+	.nav.affix {
+		position: fixed;
+	}
+}
+
 .footer {
 	color: #a8a8a8;
 }
