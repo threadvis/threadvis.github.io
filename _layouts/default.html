@@ -7,16 +7,16 @@
     <title>{% if page.title %} {{ page.title }} | {% endif %} ThreadVis - Visualizing Conversations</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{{site.baseurl}}styles/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ "/styles/bootstrap/css/bootstrap.min.css" | relative_url }}" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="{{site.baseurl}}styles/bootstrap/justified-nav.css" rel="stylesheet">
+    <link href="{{ "/styles/bootstrap/justified-nav.css" | relative_url }}" rel="stylesheet">
     <!-- Custom styles -->
-    <link href="{{site.baseurl}}styles/style.css" rel="stylesheet">
+    <link href="{{ "/styles/style.css" | relative_url }}" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="{{site.baseurl}}styles/bootstrap/js/html5shiv.js"></script>
-      <script src="{{site.baseurl}}styles/bootstrap/js/respond.min.js"></script>
+      <script src="{{ "/styles/bootstrap/js/html5shiv.js" | relative_url }}"></script>
+      <script src="{{ "/styles/bootstrap/js/respond.min.js" | relative_url }}"></script>
     <![endif]-->
   </head>
 
@@ -35,17 +35,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="{{site.baseurl}}styles/bootstrap/js/jquery.js"></script>
-    <script src="{{site.baseurl}}styles/bootstrap/js/bootstrap.min.js"></script>
-    <!-- Google Analytics JavaScript -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-401940-6', 'threadvis.github.io');
-      ga('send', 'pageview');
-    </script>
+    <script src="{{ "/styles/bootstrap/js/jquery.js" | relative_url }}"></script>
+    <script src="{{ "/styles/bootstrap/js/bootstrap.min.js" | relative_url }}"></script>
   </body>
 </html>
 

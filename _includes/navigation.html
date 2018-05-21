@@ -5,16 +5,16 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="{{site.baseurl}}">ThreadVis</a>
+    <a class="navbar-brand" href="{{ "/" | relative_url }}">ThreadVis</a>
   </div>
   <div class="navbar-collapse collapse">
     <ul class="nav navbar-nav">
-      <li{% if page.nav == 'downloads' %} class="active"{% endif %}><a href="{{site.baseurl}}downloads"><span class="glyphicon glyphicon-cloud-download"></span> Downloads</a></li>
-      <li{% if page.nav == 'documentation' %} class="active"{% endif %}><a href="{{site.baseurl}}documentation"><span class="glyphicon glyphicon-book"></span> Documentation</a></li>
-      <li{% if page.nav == 'links' %} class="active"{% endif %}><a href="{{site.baseurl}}links"><span class="glyphicon glyphicon-link"></span> Links</a></li>
+      <li{% if page.nav == 'downloads' %} class="active"{% endif %}><a href="{{ "/downloads" | relative_url }}"><span class="glyphicon glyphicon-cloud-download"></span> Downloads</a></li>
+      <li{% if page.nav == 'documentation' %} class="active"{% endif %}><a href="{{ "/documentation" | relative_url }}"><span class="glyphicon glyphicon-book"></span> Documentation</a></li>
+      <li{% if page.nav == 'links' %} class="active"{% endif %}><a href="{{ "/links" | relative_url }}"><span class="glyphicon glyphicon-link"></span> Links</a></li>
       <li><a href="https://github.com/threadvis/ThreadVis/issues"><span class="glyphicon glyphicon-list"></span> Issues/Roadmap</a></li>
-      <li{% if page.nav == 'contact' %} class="active"{% endif %}><a href="{{site.baseurl}}contact"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
-      <li><a href="https://github.com/threadvis/ThreadVis"><img src="{{site.baseurl}}images/github.png"></img> GitHub</a></li>
+      <li{% if page.nav == 'contact' %} class="active"{% endif %}><a href="{{ "/contact" | relative_url }}"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+      <li><a href="https://github.com/threadvis/ThreadVis"><img src="{{ "/images/github.png" | relative_url }}"></img> GitHub</a></li>
     </ul>
     <form class="navbar-form navbar-right" action="https://www.paypal.com/cgi-bin/webscr" method="post">
       <input type="hidden" name="cmd" value="_s-xclick">
